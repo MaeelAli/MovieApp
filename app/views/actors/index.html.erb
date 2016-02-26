@@ -7,6 +7,7 @@
             <img src=<%=actor.image%>>
             <h3> <%= actor.first_name %> <%=actor.last_name %> </h3>
             <p> <%= actor.bio %> </p>
+            <%= link_to "Learn more", actor_path(actor) %>
           </div>
           <% end %>
       </div>
